@@ -1312,28 +1312,6 @@
                             </div>
                         </div>
 
-                        <div className="data-grid" style={{marginTop: '16px'}}>
-                            <div className="data-item">
-                                <div className="data-label">AA Amount</div>
-                                <div className="data-value highlight">
-                                    {data.aaAmount ? `₹ ${parseInt(data.aaAmount).toLocaleString('en-IN')}` : 'Not found'}
-                                </div>
-                            </div>
-                            <div className="data-item">
-                                <div className="data-label">Cumulative Expenditure</div>
-                                <div className="data-value highlight">
-                                    {data.cumulativeExpenditure ? `₹ ${parseInt(data.cumulativeExpenditure).toLocaleString('en-IN')}` : 'Not found'}
-                                </div>
-                            </div>
-                            {data.balanceAmount && (
-                                <div className="data-item">
-                                    <div className="data-label">Balance with DDO</div>
-                                    <div className="data-value highlight">
-                                        ₹ {parseInt(data.balanceAmount).toLocaleString('en-IN')}
-                                    </div>
-                                </div>
-                            )}
-                        </div>
 
                         <div className="extraction-debug">
                             <div className="debug-title">Extraction Status</div>
